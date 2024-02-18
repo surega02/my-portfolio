@@ -1008,7 +1008,7 @@ body.dark-theme {
   }
 
   .work-container {
-    grid-template-columns: repeat(3, 350px);
+    grid-template-columns: repeat(3, 330px);
     row-gap: 4rem;
   }
 
@@ -1083,7 +1083,7 @@ body.dark-theme {
   }
 }
 
-@media (min-width: 1500px) {
+@media (min-width: 1600px) {
   .home-rectangle {
     width: 33vw;
   }
