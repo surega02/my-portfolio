@@ -29,7 +29,7 @@ const selectedIcon = localStorage.getItem("selected-icon");
 const getCurrentTheme = () => (document.body.classList.contains("darkTheme") ? "dark" : "light");
 const getCurrentIcon = () => (themeButton.classList.contains("iconTheme") ? "ri-moon-line" : "ri-sun-line");
 
-// we validate if the user previously chose a topic
+// we validate if the user previously choose a topic
 if (selectedTheme) {
   // if the validate is fulfilled
   document.body.classList[selectedTheme === "dark" ? "add" : "remove"](darkTheme);

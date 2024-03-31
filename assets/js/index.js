@@ -21,19 +21,7 @@ modalClose.forEach((modalClose) => {
   });
 });
 
-/*=============== SWIPER TESTIMONIAL ===============*/
-const swiperTestimonial = new Swiper(".testimonial-swiper", {
-  loop: true,
-  spaceBetween: 32,
-  grabCursor: true,
 
-  // If we need pagination
-  pagination: {
-    el: ".swiper-pagination",
-    dynamicBullets: true,
-    clickable: true,
-  },
-});
 /*=============== SHOW SCROLL UP ===============*/
 const scrollUp = () => {
   const scroll = document.querySelector("#scroll-up");
