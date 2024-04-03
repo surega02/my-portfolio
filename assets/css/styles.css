@@ -346,6 +346,12 @@ body.dark-theme {
   font-size: var(--h2-font-size);
 }
 
+.home-educate,
+.about-educate {
+  font-size: 16px;
+  font-weight: 200;
+}
+
 .home-social {
   display: flex;
   gap: 1rem;
