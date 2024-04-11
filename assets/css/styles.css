@@ -397,6 +397,7 @@ body.dark-theme {
 
 .perfil-img {
   width: 320px;
+  height: 170px;
 }
 
 /*=============== ABOUT ===============*/
@@ -429,6 +430,9 @@ body.dark-theme {
   font-size: var(--h2-font-size);
 }
 
+.about-description {
+  text-align: justify;
+}
 .about-description b {
   color: var(--first-color);
 }
@@ -897,6 +901,7 @@ body.dark-theme {
   }
   .perfil-img {
     width: 320px;
+    height: 330px;
   }
 
   .home-rectangle {
